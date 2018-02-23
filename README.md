@@ -5,7 +5,7 @@ EasyBMP, OpenGL Mathematics (glm), TinyObjLoader
 
 ### Compiling:
 OpenMP is required to compile the program. It is included by default in modern compilers (gcc-7 and latest versions of clang).
-
+Run this from project folder:
 g++ -O2 -fopenmp -o main src/Main.cpp src/Scene.cpp src/Tracer.cpp src/EasyBMP/EasyBMP.cpp src/TinyObjLoader/tiny_obj_loader.cc
 
 ### Usage:
