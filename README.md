@@ -5,17 +5,17 @@ EasyBMP
 OpenGL Mathematics (glm)
 TinyObjLoader 
 
-Compiling:
+### Compiling:
 OpenMP is required to compile the program. It is included by default in modern compilers (gcc-7 and last versions of clang).
 
 g++ -O2 -fopenmp -o main src/Main.cpp src/Scene.cpp src/Tracer.cpp src/EasyBMP/EasyBMP.cpp src/TinyObjLoader/tiny_obj_loader.cc
 
-Usage:
+### Usage:
 CLI. Specify config file as 1st param.
 
-Config file structure:
+### Config file structure:
 config1.txt with an explanation to each line
-
+```
   1280 720            //output image resolution
   Flat.obj          //path to .obj file containing model of room/house in which the distribution of wi-fi rays is needed to be visualized.
   14000 1000 100      //router coords inside the model
@@ -26,7 +26,7 @@ config1.txt with an explanation to each line
   90 74               //camera FOV (horizontal and vertical respectfully)
   FALSE               //turns autocontrast filter on/off (experimental, recomennded to be set to FALSE)
   FALSE               //turns median filtering on/off. (experimental, recomennded to be set to FALSE)
-  
-  Output:
+  ```
+### Output:
   Resulting image is placed in /img folder with a name corresponding to config file that was used.
   
