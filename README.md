@@ -28,3 +28,4 @@ config1.txt with an explanation to each line
 ### Output:
   Resulting image is placed in /img folder with a name corresponding to config file that was used.
   
+P.S This program is purely just a PoC, software renderer and ray marching test
