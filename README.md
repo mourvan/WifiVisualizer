@@ -1,9 +1,7 @@
 # WifiVisualizer
 Wi-Fi signal strength visualizer based on ray tracing/ray marching methods.
-Libraries used:
-EasyBMP
-OpenGL Mathematics (glm)
-TinyObjLoader 
+### Libraries used:
+EasyBMP, OpenGL Mathematics (glm), TinyObjLoader 
 
 ### Compiling:
 OpenMP is required to compile the program. It is included by default in modern compilers (gcc-7 and last versions of clang).
