@@ -22,8 +22,8 @@ config1.txt with an explanation to each line
   0 0 -1              //camera "forward" vector - defines camera direction
   0 1 0               //camera "up" vector - defines camera incline
   90 74               //camera FOV (horizontal and vertical respectfully)
-  FALSE               //turns autocontrast filter on/off (experimental, recomennded to be set to FALSE)
-  FALSE               //turns median filtering on/off. (experimental, recomennded to be set to FALSE)
+  FALSE               //turns autocontrast filter on/off (experimental, recommended to be set to FALSE)
+  FALSE               //turns median filtering on/off. (experimental, recommennded to be set to FALSE)
   ```
 ### Output:
   Resulting image is placed in /img folder with a name corresponding to config file that was used.
